@@ -15,7 +15,7 @@ import SimpleLineIcons from "react-native-vector-icons/SimpleLineIcons";
 import Zocial from "react-native-vector-icons/Zocial";
 
 const icoMoonConfig = require("../../shared/selection.json");
-const EzbileIcon = createIconSetFromIcoMoon(
+const icoMoonIcon = createIconSetFromIcoMoon(
   icoMoonConfig,
   "icomoon",
   "icomoon.ttf"
@@ -35,6 +35,6 @@ export const Icons = {
   Octicons: Octicons,
   Zocial: Zocial,
   SimpleLineIcons: SimpleLineIcons,
-  EzbileIcon: EzbileIcon,
+  icoMoonIcon: icoMoonIcon,
   FontAwesome5: FontAwesome5,
 };

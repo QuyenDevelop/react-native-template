@@ -43,6 +43,6 @@ export const CIcon: FunctionComponent<IconProps> = (props) => {
     case DATA_CONSTANT.ICON_TYPE.Zocial:
       return <Icons.Zocial {...arg} />;
     default:
-      return <Icons.EzbileIcon {...arg} />;
+      return <Icons.icoMoonIcon {...arg} />;
   }
 };
