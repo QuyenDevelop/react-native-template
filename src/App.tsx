@@ -25,6 +25,8 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
 import { AppErrorBoundary } from "./AppErrorBoundary";
+import DropdownAlert from "react-native-dropdownalert";
+import { DropdownMessageHolder } from "@helpers";
 
 if (
   Platform.OS === "android" &&
@@ -43,6 +45,15 @@ const AwesomeApp = () => {
       <NavigationContainer ref={navigationRef}>
         <RootNavigator />
       </NavigationContainer>
+      <DropdownAlert
+        ref={ref => {
+          if (ref) {
+            DropdownMessageHolder.setDropDown(ref);
+          }
+        }}
+        closeInterval={2000}
+        updateStatusBar={Platform.OS === "ios"}
+      />
     </View>
   );
 };

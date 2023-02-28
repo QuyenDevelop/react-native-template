@@ -1,4 +1,8 @@
 export default {
   error: {},
-  label: {},
+  label: {
+    error: "Error",
+    warning: "Warning",
+    success: "Success",
+  },
 };
