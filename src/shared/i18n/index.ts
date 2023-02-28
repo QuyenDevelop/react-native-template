@@ -13,7 +13,7 @@ let initialized = false;
 
 export var currentLanguage = CONSTANT.LANGUAGES.VI;
 
-export const onChangeLanguage = async (language: any) => {
+export const onChangeLanguage = async (language: string) => {
   switch (language) {
     case CONSTANT.LANGUAGES.VI: {
       await AsyncStorage.setItem("language", language);
