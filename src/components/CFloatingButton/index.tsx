@@ -6,9 +6,9 @@ import {
 
 interface CFloatingButtonProps extends FloatingButtonProps {}
 
-export const CFloatingButton: FunctionComponent<CFloatingButtonProps> = (
-  props
-) => {
+export const CFloatingButton: FunctionComponent<
+  CFloatingButtonProps
+> = props => {
   const { ...arg } = props;
   return <IFloatingButton {...arg} />;
 };

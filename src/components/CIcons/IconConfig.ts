@@ -18,7 +18,7 @@ const icoMoonConfig = require("../../shared/selection.json");
 const icoMoonIcon = createIconSetFromIcoMoon(
   icoMoonConfig,
   "icomoon",
-  "icomoon.ttf"
+  "icomoon.ttf",
 );
 
 export const Icons = {

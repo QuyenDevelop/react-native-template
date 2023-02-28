@@ -7,7 +7,7 @@ interface CButtonProps extends ButtonProps {
   buttonRightIconName?: string;
 }
 
-export const CButton: FunctionComponent<CButtonProps> = (props) => {
+export const CButton: FunctionComponent<CButtonProps> = props => {
   const { buttonRightIconName, buttonRightIconType, ...arg } = props;
   return (
     <Button

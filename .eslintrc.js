@@ -1,26 +1,21 @@
 module.exports = {
-  root: true,
-  extends: ["@react-native-community"],
-  plugins: ["react-hooks"],
+  env: {
+    commonjs: true,
+    es6: true,
+    node: true,
+  },
+  extends: ["@react-native-community", "prettier", "airbnb-base"],
+  plugins: ["react", "react-hooks", "prettier"],
+  globals: {
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly",
+  },
+  parserOptions: {
+    ecmaVersion: 2018,
+  },
   rules: {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    quotes: [2, "double"],
-    "prettier/prettier": [
-      "error",
-      {
-        singleQuote: false,
-        endOfLine: "auto",
-        tabWidth: 2,
-        semi: true,
-        trailingComma: "es6",
-        bracketSpacing: true,
-        jsxBracketSameLine: false,
-        arrowParens: "avoid",
-      },
-      {
-        usePrettierrc: false,
-      },
-    ],
+    "prettier/prettier": ["error", { endOfLine: "auto" }],
   },
 };

@@ -6,4 +6,5 @@ export const CThemes = {
   colors: { ...DefaultTheme.colors, ...Themes.Color },
   fonts: {},
   screenUtils: Themes.ScreenUtils,
+  constantStyles: Themes.ConstantStyles,
 };

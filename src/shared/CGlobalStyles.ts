@@ -1,6 +1,9 @@
 import { StyleSheet } from "react-native";
+import { Themes } from "rn-janbox-design-system-v2";
 
 export const CGlobalStyles = StyleSheet.create({
+  ...Themes.ShadowStyles,
+  ...Themes.TextStyles,
   appContent: {
     flex: 1,
   },
@@ -8,5 +11,21 @@ export const CGlobalStyles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
+  },
+  rowInline: {
+    flex: 1,
+    flexDirection: "row",
+  },
+  rowInlineCenter: {
+    flex: 1,
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  rowSpaceBetween: {
+    flex: 1,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
   },
 });
