@@ -5,7 +5,7 @@ module.exports = {
     node: true,
   },
   extends: ["@react-native-community", "prettier", "airbnb-base"],
-  plugins: ["react", "react-hooks", "prettier"],
+  plugins: ["react", "react-hooks", "prettier", "@typescript-eslint/recommended"],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",

@@ -1,0 +1,37 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Oswald-Medium.ttf",
+      "sha1": "9ba1a418cf29974f41e83baa5ea1757c749324ee"
+    },
+    {
+      "path": "src/assets/fonts/Oswald-Regular.ttf",
+      "sha1": "cf5adbf5c521d1a9b68a7c8b3af9193c0f6e5460"
+    },
+    {
+      "path": "src/assets/fonts/Oswald-SemiBold.ttf",
+      "sha1": "2d390843f2da28225126ac471d5f6d7619180660"
+    },
+    {
+      "path": "src/assets/fonts/SFProText-Bold.ttf",
+      "sha1": "632e6cea171b276e5dd1f13b152c702fbf562cee"
+    },
+    {
+      "path": "src/assets/fonts/SFProText-Medium.ttf",
+      "sha1": "3b8df618cd23e83843b16a8a32de1ddc9de44df4"
+    },
+    {
+      "path": "src/assets/fonts/SFProText-Regular.ttf",
+      "sha1": "b4893462f2289df6978f9462a63db9e64bcc9342"
+    },
+    {
+      "path": "src/assets/fonts/SFProText-Semibold.ttf",
+      "sha1": "9560ae412d73c7c9af72333db50464b4e597b0f9"
+    },
+    {
+      "path": "src/assets/fonts/icomoon.ttf",
+      "sha1": "964ec4f7efcc10d2d3db99a71e5a563de30e280f"
+    }
+  ]
+}

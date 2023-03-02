@@ -6,4 +6,6 @@ export const Images = {
   errorImage: require("../assets/images/mascot-404.png"),
 };
 
-export const AnimationImages = {};
+export const AnimationImages = {
+  launchAnimation: require("../assets/launch-loader.json"),
+};

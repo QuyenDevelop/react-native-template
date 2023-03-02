@@ -1,7 +1,9 @@
 export enum SCREENS {
+  LAUNCH_SCREEN= "LAUNCH_SCREEN",
   BOTTOM_TAB_NAVIGATION = "BOTTOM_TAB_NAVIGATION",
-  // ------- Home stack
+  // ------- Authentication stack
   AUTH_STACK = "AUTH_STACK",
+  LOGIN_SCREEN = "LOGIN_SCREEN",
 
   // ------- Home stack
   HOME_STACK = "HOME_STACK",

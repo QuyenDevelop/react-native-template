@@ -1,11 +1,10 @@
 import { SCREENS } from "@configs";
-import { NavigationUtils } from "@helpers";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { HomeScreen } from "@screens";
+import { LoginScreen } from "@screens";
 import React from "react";
 
 export type AuthStackParamList = {
-  [SCREENS.HOME_SCREEN]: undefined;
+  [SCREENS.LOGIN_SCREEN]: undefined;
 };
 
 const AuthenticationNavigator =
@@ -14,14 +13,14 @@ const AuthenticationNavigator =
 export const AuthStack = () => {
   return (
     <AuthenticationNavigator.Navigator
-      initialRouteName={SCREENS.HOME_SCREEN}
+      initialRouteName={SCREENS.LOGIN_SCREEN}
       screenOptions={{
         headerShown: false,
       }}
     >
       <AuthenticationNavigator.Screen
-        name={SCREENS.HOME_SCREEN}
-        component={HomeScreen}
+        name={SCREENS.LOGIN_SCREEN}
+        component={LoginScreen}
       />
     </AuthenticationNavigator.Navigator>
   );
