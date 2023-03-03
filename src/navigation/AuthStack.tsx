@@ -1,10 +1,10 @@
 import { SCREENS } from "@configs";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { LoginScreen } from "@screens";
+import { LoginScreen, LoginScreenParams } from "@screens";
 import React from "react";
 
 export type AuthStackParamList = {
-  [SCREENS.LOGIN_SCREEN]: undefined;
+  [SCREENS.LOGIN_SCREEN]: LoginScreenParams;
 };
 
 const AuthenticationNavigator =

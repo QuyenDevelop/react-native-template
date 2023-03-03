@@ -9,3 +9,7 @@ export * from "./CPopup";
 export * from "./CSearch";
 export * from "./TextInput/CTextArea";
 export * from "./TextInput/CTextInput";
+export * from "./CCheckBox/CCheckBox";
+export * from "./CCheckBox/CRadioCheck";
+export * from "./CBadge";
+export * from "./Modal";

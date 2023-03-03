@@ -19,7 +19,7 @@ export const HomeAccountScreen: FunctionComponent = () => {
   ];
 
   return (
-    <View style={CGlobalStyles.appContent}>
+    <View style={CGlobalStyles.container}>
       <CHeader title={"Account Screen"} iconRights={listIcon} />
       <View style={CGlobalStyles.flexCenter}>
         <CSearch

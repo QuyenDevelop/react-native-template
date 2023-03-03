@@ -22,6 +22,8 @@
 		6A0A7C176FBB46318AFC54E9 /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 429FB730FAA7495C82D4E57A /* SFProText-Regular.ttf */; };
 		E49AF2BB4B7F4AD28F81C4F5 /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DDEABBE30CE434B88A13153 /* SFProText-Semibold.ttf */; };
 		51D98363C61042B6BDD061F8 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00886686AA194D0EB81B1F31 /* icomoon.ttf */; };
+		5455D25F0F384325A5114B4E /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1F6E46A9F9A4D86BF5549E4 /* Inter-Medium.ttf */; };
+		5AADBB289A1C4BAD8159D8EA /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86110074DFAB4DF7AC741CCC /* Inter-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		429FB730FAA7495C82D4E57A /* SFProText-Regular.ttf */ = {isa = PBXFileReference; name = "SFProText-Regular.ttf"; path = "../src/assets/fonts/SFProText-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		9DDEABBE30CE434B88A13153 /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; name = "SFProText-Semibold.ttf"; path = "../src/assets/fonts/SFProText-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		00886686AA194D0EB81B1F31 /* icomoon.ttf */ = {isa = PBXFileReference; name = "icomoon.ttf"; path = "../src/assets/fonts/icomoon.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F1F6E46A9F9A4D86BF5549E4 /* Inter-Medium.ttf */ = {isa = PBXFileReference; name = "Inter-Medium.ttf"; path = "../src/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		86110074DFAB4DF7AC741CCC /* Inter-Regular.ttf */ = {isa = PBXFileReference; name = "Inter-Regular.ttf"; path = "../src/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 				429FB730FAA7495C82D4E57A /* SFProText-Regular.ttf */,
 				9DDEABBE30CE434B88A13153 /* SFProText-Semibold.ttf */,
 				00886686AA194D0EB81B1F31 /* icomoon.ttf */,
+				F1F6E46A9F9A4D86BF5549E4 /* Inter-Medium.ttf */,
+				86110074DFAB4DF7AC741CCC /* Inter-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -285,6 +291,8 @@
 				6A0A7C176FBB46318AFC54E9 /* SFProText-Regular.ttf in Resources */,
 				E49AF2BB4B7F4AD28F81C4F5 /* SFProText-Semibold.ttf in Resources */,
 				51D98363C61042B6BDD061F8 /* icomoon.ttf in Resources */,
+				5455D25F0F384325A5114B4E /* Inter-Medium.ttf in Resources */,
+				5AADBB289A1C4BAD8159D8EA /* Inter-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

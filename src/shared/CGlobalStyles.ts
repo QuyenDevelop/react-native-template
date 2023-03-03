@@ -2,6 +2,17 @@ import { StyleSheet } from "react-native";
 import { Themes } from "rn-janbox-design-system-v2";
 import { CThemes } from "./CThemes";
 
+const ViewStyles = StyleSheet.create({
+  contentCenter: {
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  contentBetween: {
+    alignItems: "center",
+    justifyContent: "space-between",
+  },
+});
+
 export const CGlobalStyles = StyleSheet.create({
   ...Themes.ShadowStyles,
   ...Themes.TextStyles,
@@ -16,25 +27,41 @@ export const CGlobalStyles = StyleSheet.create({
   appContent: {
     flex: 1,
   },
+  container: {
+    flex: 1,
+    width: CThemes.screenUtils.WIDTH_SCREEN,
+    height: CThemes.screenUtils.HEIGHT_SCREEN,
+  },
+  childrenContainer: {
+    paddingHorizontal: CThemes.constantStyles.spacing16,
+  },
   flexCenter: {
     flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
+    ...ViewStyles.contentCenter,
+  },
+  nonFlexCenterView: {
+    ...ViewStyles.contentCenter,
   },
   rowInline: {
     flex: 1,
     flexDirection: "row",
   },
-  rowInlineCenter: {
+  rowCenter: {
     flex: 1,
     flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
+    ...ViewStyles.contentCenter,
   },
-  rowSpaceBetween: {
+  rowCenterNonFlex: {
+    flexDirection: "row",
+    ...ViewStyles.contentCenter,
+  },
+  rowBetween: {
     flex: 1,
     flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
+    ...ViewStyles.contentBetween,
+  },
+  rowBetweenNonFlex: {
+    flexDirection: "row",
+    ...ViewStyles.contentBetween,
   },
 });

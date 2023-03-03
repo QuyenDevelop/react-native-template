@@ -21,7 +21,7 @@ export const CHeader: FunctionComponent<CHeaderProps> = props => {
 
   const renderIcons = () => {
     return !!iconRights?.length ? (
-      <View style={CGlobalStyles.rowSpaceBetween}>
+      <View style={CGlobalStyles.rowBetween}>
         {iconRights.map((icon, index) => (
           <TouchableOpacity
             onPress={icon.handle}

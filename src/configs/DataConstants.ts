@@ -6,6 +6,14 @@ const languageCodes = [
   { code: "tw", tag: "zh-TW" },
 ];
 
+const language = [
+  { label: "Tiếng Việt", value: "vi-VN" },
+  { label: "English", value: "en-US" },
+  { label: "日本語", value: "ja-JP" },
+  { label: "中国", value: "zh-CN" },
+  { label: "台灣", value: "zh-TW" },
+];
+
 export enum IconType {
   AntDesign = "AntDesign",
   Entypo = "Entypo",
@@ -25,5 +33,6 @@ export enum IconType {
 
 export const DATA_CONSTANT = {
   LANGUAGE_CODE: languageCodes,
+  LANGUAGE: language,
   ICON_TYPE: IconType,
 };

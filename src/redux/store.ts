@@ -1,10 +1,12 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import createSagaMiddleware from "redux-saga";
 import rootSaga from "./sagas";
-import { IRootState, todoReducer } from "./slices";
+import { todoReducer, userReducer } from "./slices";
+import { IRootState } from "./types";
 
 const rootReducer = combineReducers({
   todo: todoReducer,
+  user: userReducer,
 });
 
 const sagaMiddleware = createSagaMiddleware();
