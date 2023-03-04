@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { ITags, ITagsProps } from "rn-janbox-design-system-v2";
+import { ITags, ITagsProps } from "rn-core-components";
 import { CIcon } from "../CIcons";
 
 interface CTagsProps extends ITagsProps {

@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { IBadge, BadgeProps } from "rn-janbox-design-system-v2";
+import { IBadge, BadgeProps } from "rn-core-components";
 
 interface CBadgeProps extends BadgeProps {}
 

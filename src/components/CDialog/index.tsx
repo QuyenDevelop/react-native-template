@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { BaseDialog, DialogProps } from "rn-janbox-design-system-v2";
+import { BaseDialog, DialogProps } from "rn-core-components";
 
 interface CDialogProps extends DialogProps {}
 

@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { IPlaceHolder, PlaceHolderProps } from "rn-janbox-design-system-v2";
+import { IPlaceHolder, PlaceHolderProps } from "rn-core-components";
 
 interface CPlaceHolderProps extends PlaceHolderProps {}
 

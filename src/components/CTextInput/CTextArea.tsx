@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { BaseTextArea, ITextareaProps } from "rn-janbox-design-system-v2";
+import { BaseTextArea, ITextareaProps } from "rn-core-components";
 
 interface CTextAreaProps extends ITextareaProps {}
 

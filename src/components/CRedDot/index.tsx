@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { IDot, DotProps } from "rn-janbox-design-system-v2";
+import { IDot, DotProps } from "rn-core-components";
 
 interface CRedDotProps extends DotProps {}
 

@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { ICheckBox, CheckBoxProps } from "rn-janbox-design-system-v2";
+import { ICheckBox, CheckBoxProps } from "rn-core-components";
 
 interface CCheckBoxProps extends CheckBoxProps {}
 

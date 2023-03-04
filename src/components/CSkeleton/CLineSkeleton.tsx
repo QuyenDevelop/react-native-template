@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { ILineSkeleton, ISkeletonProps } from "rn-janbox-design-system-v2";
+import { ILineSkeleton, ISkeletonProps } from "rn-core-components";
 
 interface CLineSkeletonProps extends ISkeletonProps {}
 

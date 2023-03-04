@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { ISpacingHorizontal, DotProps } from "rn-janbox-design-system-v2";
+import { ISpacingHorizontal, DotProps } from "rn-core-components";
 
 export interface CSpacingProps extends DotProps {}
 

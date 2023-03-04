@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { EmptyStateProps, IEmptyState } from "rn-janbox-design-system-v2";
+import { EmptyStateProps, IEmptyState } from "rn-core-components";
 
 interface CEmptyStateProps extends EmptyStateProps {}
 

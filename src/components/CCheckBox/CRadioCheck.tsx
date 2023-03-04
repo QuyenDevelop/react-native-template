@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { IRadioCheckBox, CheckBoxProps } from "rn-janbox-design-system-v2";
+import { IRadioCheckBox, CheckBoxProps } from "rn-core-components";
 
 interface CRadioCheckProps extends CheckBoxProps {}
 

@@ -1,8 +1,5 @@
 import { FunctionComponent } from "react";
-import {
-  FloatingButtonProps,
-  IFloatingButton,
-} from "rn-janbox-design-system-v2";
+import { FloatingButtonProps, IFloatingButton } from "rn-core-components";
 
 interface CFloatingButtonProps extends FloatingButtonProps {}
 

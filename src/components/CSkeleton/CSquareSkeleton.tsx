@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { ISquareSkeleton, ISkeletonProps } from "rn-janbox-design-system-v2";
+import { ISquareSkeleton, ISkeletonProps } from "rn-core-components";
 
 interface CSquareSkeletonProps extends ISkeletonProps {
   size: number;

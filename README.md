@@ -9,13 +9,6 @@ git clone https://github.com/QuyenDevelop/react-native-template.git <your_projec
 
 ```
 
-hoặc
-
-```
-npx react-native init <your_project_name> --template https://github.com/QuyenDevelop/react-native-template
-
-```
-
 ## Cài đặt môi trường làm việc
 
 ### Windows

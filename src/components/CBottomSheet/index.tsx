@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from "react";
-import { BaseBottomSheet, BottomSheetProps } from "rn-janbox-design-system-v2";
+import { BaseBottomSheet, BottomSheetProps } from "rn-core-components";
 import { CIcon } from "../CIcons";
 import { DATA_CONSTANT } from "@configs";
 

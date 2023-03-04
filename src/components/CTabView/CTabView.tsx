@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { ITabView, ITabsProps } from "rn-janbox-design-system-v2";
+import { ITabView, ITabsProps } from "rn-core-components";
 
 interface CTabViewProps extends ITabsProps {}
 
