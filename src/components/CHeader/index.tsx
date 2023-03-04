@@ -1,7 +1,7 @@
 import { useAppNavigation } from "@hooks";
 import { FunctionComponent } from "react";
 import { TouchableOpacity, View } from "react-native";
-import { BaseHeaderBar, HeaderBarProps } from "rn-core-components";
+import { BaseHeaderBar, HeaderBarProps } from "@phamquyen/rn-core-components";
 import { CIcon } from "../CIcons";
 import { CGlobalStyles, CThemes } from "@shared";
 

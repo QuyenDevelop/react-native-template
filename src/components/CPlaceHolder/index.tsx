@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { IPlaceHolder, PlaceHolderProps } from "rn-core-components";
+import { IPlaceHolder, PlaceHolderProps } from "@phamquyen/rn-core-components";
 
 interface CPlaceHolderProps extends PlaceHolderProps {}
 

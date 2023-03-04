@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { ILineSkeleton, ISkeletonProps } from "rn-core-components";
+import { ILineSkeleton, ISkeletonProps } from "@phamquyen/rn-core-components";
 
 interface CLineSkeletonProps extends ISkeletonProps {}
 

@@ -50,7 +50,7 @@
     "react-redux": "^7.2.6",
     "redux": "^4.1.2",
     "redux-saga": "^1.1.3",
-    "rn-core-components": "^1.0.0",
+    "@phamquyen/rn-core-components": "^1.0.0",
     "rn-fetch-blob": "0.12.0",
     "use-immer": "0.7.0"
   },

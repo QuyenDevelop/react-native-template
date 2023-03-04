@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { ITabBarItem, ITabItemProps } from "rn-core-components";
+import { ITabBarItem, ITabItemProps } from "@phamquyen/rn-core-components";
 import { CIcon } from "../CIcons";
 
 interface CTabBarItemProps extends ITabItemProps {

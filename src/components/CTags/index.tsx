@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { ITags, ITagsProps } from "rn-core-components";
+import { ITags, ITagsProps } from "@phamquyen/rn-core-components";
 import { CIcon } from "../CIcons";
 
 interface CTagsProps extends ITagsProps {

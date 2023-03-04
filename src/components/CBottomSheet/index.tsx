@@ -1,5 +1,8 @@
 import React, { FunctionComponent } from "react";
-import { BaseBottomSheet, BottomSheetProps } from "rn-core-components";
+import {
+  BaseBottomSheet,
+  BottomSheetProps,
+} from "@phamquyen/rn-core-components";
 import { CIcon } from "../CIcons";
 import { DATA_CONSTANT } from "@configs";
 

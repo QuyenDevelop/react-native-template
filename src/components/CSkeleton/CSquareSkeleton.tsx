@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { ISquareSkeleton, ISkeletonProps } from "rn-core-components";
+import { ISquareSkeleton, ISkeletonProps } from "@phamquyen/rn-core-components";
 
 interface CSquareSkeletonProps extends ISkeletonProps {
   size: number;

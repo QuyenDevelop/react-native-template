@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { Themes } from "rn-core-components";
+import { Themes } from "@phamquyen/rn-core-components";
 import { CThemes } from "./CThemes";
 
 const ViewStyles = StyleSheet.create({

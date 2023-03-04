@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { IDot, DotProps } from "rn-core-components";
+import { IDot, DotProps } from "@phamquyen/rn-core-components";
 
 interface CRedDotProps extends DotProps {}
 

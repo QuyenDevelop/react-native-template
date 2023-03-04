@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { EmptyStateProps, IEmptyState } from "rn-core-components";
+import { EmptyStateProps, IEmptyState } from "@phamquyen/rn-core-components";
 
 interface CEmptyStateProps extends EmptyStateProps {}
 
