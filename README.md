@@ -1,15 +1,19 @@
 # Template for React-native version 0.70 and above
 
-**Sử dụng temolate**
+**Sử dụng template**
 
 - sử dụng git Bash trên Windows | Terminal trên MacOS và chạy lệnh:
 
 ```
 git clone https://github.com/QuyenDevelop/react-native-template.git <your_project_name>
 
+```
+
 hoặc
 
+```
 npx react-native init <your_project_name> --template https://github.com/QuyenDevelop/react-native-template
+
 ```
 
 ## Cài đặt môi trường làm việc
